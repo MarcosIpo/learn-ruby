@@ -81,7 +81,7 @@ varencomoda = "Encomodam "
 puts "Um Elefante Encomoda Muita gente..."
 while varnumelef < 250
   varnumelef = varnumelef+1
-  if varnumelef.even?
+  if varnumelef.even? # .even? em um inteiro retorna um boolean onde que par = true
     puts numeroPortugues(varnumelef).to_s + " Elefantes " + varencomoda*varnumelef +" muito maiss..."
   else
     puts numeroPortugues(varnumelef).to_s + " Elefantes encomodam muita gente."

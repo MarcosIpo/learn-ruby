@@ -1,6 +1,3 @@
-nascimento = Time.mktime(1992)
-puts nascimento
-
 puts 'Digite o dia de seu aniversario'
 dia = gets.to_i
 
